@@ -8,7 +8,6 @@ Build-Depends: debhelper (>= 9),
  kms-cmake-utils,
  kms-core-dev,
  kms-elements-dev,
- kurento-module-creator,
  libboost-filesystem-dev,
  libboost-system-dev,
  libglibmm-2.4-dev,
@@ -35,10 +34,8 @@ Package: kms-filters-dev
 Architecture: any
 Section: libdevel
 Depends: kms-filters (= ${binary:Version}),
- kms-cmake-utils,
  kms-core-dev,
  kms-elements-dev,
- kurento-module-creator,
  libboost-filesystem-dev,
  libboost-system-dev,
  libglibmm-2.4-dev,
